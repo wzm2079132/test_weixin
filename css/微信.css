@@ -1,0 +1,241 @@
+html body .iconfont{
+    font-size: 50px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#wrap .top_a{
+    height:150px ;
+    background-color: #bbb;
+}
+#wrap .top_b{
+    height:230px ;
+    background-color: #bbb;
+}
+.top{
+    height: 54px;
+    /*border: black 1px solid;*/
+    font-size: 40px;
+    line-height: 54px;
+}
+#wrap .top .time{
+    /*text-align: center;*/
+    /*margin: 400px;*/
+    /*float: left;*/
+}
+.text{
+     font-size: 40px;
+     /*float: left;*/
+ }
+.a1{
+    float: left;
+}
+#wrap .top_b .top .a1 .iconfont{
+    font-size: 50px;
+}
+#wrap .top_b .top .a3 .iconfont{
+    font-size: 50px;
+}
+.a2{
+    float: left;
+    margin-left: 130px;
+}
+.a3{
+    float: right;
+}
+#wrap .weixin{
+    height: 60px;
+    line-height: 60px;
+    /*border: solid 1px black;*/
+    margin-top: 20px;
+}
+#wrap .weixin .text1{
+    font-size: 50px;
+    margin-left: 400px;
+    float: left;
+}
+.sousuo{
+    margin: auto;
+    width: 800px;
+    height: 50px;
+    margin-top: 30px;
+    line-height: 50px;
+    background-color: white;
+}
+.a4{
+    text-align: center;
+}
+#wrap .sousuo .text2{
+    font-size: 45px;
+    color: #999;
+}
+#wrap ul li .b1{
+    /*background-image: url("../img/1558143432.jpg");*/
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#wrap ul li .b2{
+    width: 800px;
+    height: 139px;
+    float: left;
+    margin-left: 30px;
+    border-bottom:solid 1px black ;
+}
+
+#wrap ul li .t1{
+    height: 65px;
+    width: 750px;
+    font-size: 40px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+#wrap ul li .t2{
+    height: 50px;
+    width: 750px;
+    font-size: 30px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#wrap .manage{
+    height: 220px;
+    display: flex;
+    background-color: #bbbbbb;
+}
+#wrap .manage div{
+    margin-top: 40px;
+    height: 180px;
+    flex: 1;
+}
+#wrap .manage .iconfont{
+    font-size: 100px;
+    padding-left: 70px;
+}
+#wrap .manage .text{
+    font-size: 40px;
+    padding-left: 80px;
+}
+#wrap .manage .text2{
+    font-size: 40px;
+    padding-left: 60px;
+}
+#wrap .manage .text1{
+    font-size: 40px;
+    padding-left: 98px;
+}
+
+#wrap .ul li .b3{
+    font-size: 100px;
+    width: 130px;
+    height: 130px;
+    float: left;
+    line-height: 120px;
+    padding-left: 20px;
+}
+#wrap .ul li .b3 .iconfont{
+    font-size: 90px;
+}
+#wrap .ul li .b4{
+    font-size: 50px;
+    width: 830px;
+    height: 120px;
+    float: left;
+    line-height: 120px;
+    border-bottom: solid 1px black;
+}
+#wrap .A{
+    height: 80px;
+    font-size: 30px;
+    line-height: 80px;
+    background-color: #bbb;
+    padding-left: 70px;
+}
+#wrap .u1{
+    list-style: none;
+    height: 700px;
+    overflow: scroll;
+}
+#wrap .u1 li{
+    height: 130px;
+}
+#wrap .u1 li .b1{
+    /*background-image: url("../img/1558143432.jpg");*/
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#wrap .u1 li .b2{
+    font-size: 50px;
+    line-height: 120px;
+    width: 800px;
+    height: 120px;
+    float: left;
+    border-bottom: black 1px solid;
+    margin-left: 30px;
+}
+#wrap .u2{
+    list-style: none;
+    height: 120px;
+}
+#wrap .u2 li{
+    height: 120px;
+}
+#wrap .b3{
+    font-size: 100px;
+    width: 120px;
+    height: 120px;
+    float: left;
+    line-height: 120px;
+    padding-left: 20px;
+}
+#wrap .b4{
+    font-size: 50px;
+    width: 690px;
+    height: 120px;
+    float: left;
+    line-height: 120px;
+}
+#wrap .u2 .a3{
+    height: 120px;
+    width: 80px;
+    font-size: 70px;
+    line-height: 120px;
+    float: right;
+}
+#wrap .b3 .iconfont{
+    font-size: 80px;
+}
+#wrap .u3{
+    list-style: none;
+    height: 240px;
+}
+#wrap .u3 li{
+    height: 120px;
+}
+#wrap .u3 .a3{
+    height: 120px;
+    width: 80px;
+    font-size: 70px;
+    line-height: 120px;
+    float: right;
+}
+#wrap .message .t1{
+    height: 200px;
+    /*width: 400px;*/
+    font-size: 40px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+#wrap .message .t2{
+    height: 150px;
+    font-size: 40px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
