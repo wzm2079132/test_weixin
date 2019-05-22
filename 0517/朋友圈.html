@@ -12,6 +12,9 @@
             padding: 0;
             margin: 0;
         }
+        #wrap{
+            height: 1740px;
+        }
         #wrap .top_b{
             height:600px ;
             /*border-bottom: solid 1px black;*/
@@ -80,22 +83,51 @@
         }
         .zan{
             height: 50px;
-            width: 300px;
+            width: 600px;
             float: right;
             font-size: 40px;
             text-align: right;
+            position: relative;
         }
         .zan .dz{
             height: 50px;
-            width: 240px;
+            width: 380px;
             line-height: 50px;
-            float: left;
+            /*float: left;*/
             background-color: #666;
-            text-align: center;
+            /*text-align: center;*/
+            position: absolute;
+            left: 150px;
+            top: 0px;
             display: none;
         }
         .zan:hover .dz{
             display: block;
+        }
+        .zan .dian{
+            position: relative;
+        }
+        .dz .p1{
+            position: absolute;
+            left: 20px;
+            top: 0;
+        }
+        .dz .s1{
+            position: absolute;
+            left: 80px;
+            top: 0;
+            padding-right: 30px;
+            border-right: solid 1px white;
+        }
+        .dz .p2{
+            position: absolute;
+            left: 220px;
+            top: 0;
+        }
+        .dz .s2{
+            position: absolute;
+            left: 280px;
+            top: 0;
         }
     </style>
 </head>
@@ -113,7 +145,7 @@
                 <span class="text">100%</span>
                 <span class="iconfont">&#xe614;</span></div>
         </div>
-        <div style="height: 60px">
+        <div style="height: 76px;width: 980px">
             <div style="float: left">
                 <a href="../0517/0517发现.html" style="text-decoration: none;color: black;">
                     <div class="top1">< </div>
@@ -145,13 +177,17 @@
             <div class="text4">渭南</div>
             <div class="text4" >
                 <span>1小时前</span>
-                <div class="zan">●●
-                    <div class="dz">点赞     评论</div>
+                <div class="zan">
+                    <div class="dian"><img src="../img/2点点.png" alt="tu" width="50" height="50"></div>
+                    <div class="dz">
+                        <img src="../img/赞.png" alt="tu" width="50" height="50" class="p1"><span class="s1">点赞</span>
+                        <img src="../img/评论.png" alt="tu" width="50" height="50" class="p2"><span class="s2">评论</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <hr>
+    <hr style="margin-top: 20px">
 </div>
 </body>
 </html>
